@@ -10,7 +10,7 @@ class Home extends BaseController
 	public function show()
 	{
 		$data['nama'] = 'Evania Intiha';
-		$data['jurusan'] = 'Ilmu Komputer';
+		$data['npm'] = '1817051044';
 		echo view('mahasiswa/header');
 		echo view('mahasiswa/index', $data);
 		echo view('mahasiswa/footer');
