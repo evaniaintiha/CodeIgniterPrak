@@ -1,4 +1,4 @@
-<h1>Tabel Mahasiswa</h1>
+<h1>Pemilik Web</h1>
 <table border=1>
 	<tr>
 		<td>Nama</td>
