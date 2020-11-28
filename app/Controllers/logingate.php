@@ -2,7 +2,7 @@
 
 class logingate extends BaseController
 {
-	public function index()
+	public function login()
 	{
 		return view ('gate/login');
     }
@@ -12,9 +12,9 @@ class logingate extends BaseController
         $password= $this->request->getVar('password');
         if($email=="evania.intiha@yahoo.com"&&$password=="admin")
         {
-            return redirect()->to('/HelloWorld/show');
+            return redirect()->to('/');
         }else{
-            return redirect()->to('/logingate');
+            return redirect()->to('/login');
         }
     }
     

@@ -7,11 +7,11 @@ class ProdukSeeder extends \CodeIgniter\Database\Seeder
                 $data = [
                     [
                         'nama_produk' => 'baju',
-                        'deskripsi_produk'    => 'baju panjang'
+                        'deskripsi_produk'    => 'gamis'
                     ],
                     [
                         'nama_produk' => 'celana',
-                        'deskripsi_produk'    => 'celana panjang'
+                        'deskripsi_produk'    => 'celana chino'
                     ],
                 ];
 

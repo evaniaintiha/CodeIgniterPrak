@@ -1,0 +1,12 @@
+.jumbotron{
+    background-image: url('/img/banner.jpg');
+   background-size: cover;
+}
+
+.album-card{
+    height: 450px;
+    width: 450px
+    
+    ;
+   
+}
